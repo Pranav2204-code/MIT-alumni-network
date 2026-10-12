@@ -1,0 +1,13 @@
+{
+  "name": "mit-alumni-network",
+  "version": "1.0.0",
+  "description": "MIT-WPU Alumni Network — gamified referral system for students and alumni",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend":  "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed:verification": "npm run seed:verification --prefix backend",
+    "seed:quizzes":      "npm run seed:quizzes --prefix backend"
+  }
+}
